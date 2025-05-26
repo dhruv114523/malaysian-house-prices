@@ -2,6 +2,9 @@
 
 This project explores Malaysia's 2025 residential housing market using a dataset of 2,000 property records across all states.
 
+## Disclaimer
+This is a super early version, will expand into more detailed analysis
+
 ## Current Work
 - Grouped analysis of median price per square foot (PSF) by:
   - State
