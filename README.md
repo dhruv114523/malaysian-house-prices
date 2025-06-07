@@ -1,23 +1,64 @@
-# Malaysia Housing Price Analysis (2025) — Initial EDA
+# Malaysia House Price Analysis (2025)
 
-This project explores Malaysia's 2025 residential housing market using a dataset of 2,000 property records across all states.
+This project explores the 2025 residential property market in Malaysia using a dataset of 2,000 entries. The analysis investigates regional pricing trends, affordability, tenure types, and more.
 
-## Disclaimer
-This is a super early version, will expand into more detailed analysis
+**Status: In Progress**  
+This project is currently under development and is not yet complete. 
 
-## Current Work
-- Grouped analysis of median price per square foot (PSF) by:
-  - State
-  - Property type (e.g., Condominium, Terrace, Semi-D)
-- Summary statistics to identify regional pricing patterns and affordability trends
+---
 
-## Tools
-- Python (pandas)
+## Project Overview
 
-## Dataset
-Sourced from Brickz — includes location, tenure, type, pricing, and transaction data.
+### Objectives
+
+- Understand regional differences in price per square foot (PSF)
+- Compare freehold vs. leasehold property values
+- Analyze the relationship between household income and property prices
+- Identify affordability patterns across Malaysian states
+- Explore property type pricing and transaction volumes
+
+---
+
+## Files
+
+| File              | Description                                        |
+|-------------------|----------------------------------------------------|
+| `house-prices.R`  | Core data cleaning, EDA, visualizations in R       |
+| `house_prices.py` | Exploratory price grouping by state/type in Python |
+| `README.md`       | Project description and progress overview          |
+
+---
+
+## Technologies Used
+
+- **R:** tidyverse, ggplot2, ggrepel, lubridate
+- **Python:** pandas
+
+---
+
+## Key Features
+
+- Median PSF and property price analysis by state
+- Linear regression: income vs. property prices
+- Affordability index (price divided by income)
+- Tenure-based price comparison (freehold vs. leasehold)
+- Price trends by property type
+- Volume vs. price analysis using log-log scaling
+
+---
 
 ## Next Steps
-- Visualization in Power BI
-- Regional dashboards and KPI tracking
-- Optional modeling (e.g., price prediction or clustering)
+
+- Expand model selection and validation
+- Add time-based price trend analysis (if time series data is available)
+- Create an interactive dashboard (Shiny or Plotly)
+- Clean and modularize codebase
+- Enhance README with interactive visuals or hosted report
+
+---
+
+## Author
+
+[Your Name]  
+Aspiring Data Analyst | Skilled in Python, R, and Data Visualization  
+GitHub: [github.com/dhruv114523](https://github.com/dhruv.114523)
