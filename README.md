@@ -45,15 +45,6 @@ This project is currently under development and is not yet complete.
 - Price trends by property type
 - Volume vs. price analysis using log-log scaling
 
----
-
-## Next Steps
-
-- Expand model selection and validation
-- Add time-based price trend analysis (if time series data is available)
-- Create an interactive dashboard (Shiny or Plotly)
-- Clean and modularize codebase
-- Enhance README with interactive visuals or hosted report
 
 ---
 
