@@ -60,5 +60,3 @@ This project is currently under development and is not yet complete.
 ## Author
 
 Dhruv
-Aspiring Data Analyst | Skilled in Python, R, and Data Visualization  
-GitHub: [github.com/dhruv114523](https://github.com/dhruv.114523)
