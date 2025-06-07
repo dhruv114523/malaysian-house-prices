@@ -6,7 +6,7 @@ library(lubridate)
 # 1. Load & Clean Data
 # ----------------------
 
-setwd("C:/Pyhton/PyCharm Community Edition 2024.2.1/Files/WEbScraping/Personal Projects/malaysia_property")
+setwd("path/to/desired/working-directory")
 
 df_property <- read.csv("malaysia_house_price_data_2025.csv")
 df_income <- read.csv("hh_income_state.csv")
@@ -25,9 +25,9 @@ df_income <- df_income %>%
   slice_max(order_by = date, n = 1, with_ties = FALSE) %>%
   ungroup()
 
-states_remaining <- df_property %>%
+states_remaining <- df_property %>% 
   group_by(State) %>%
-  filter(n() > 50) %>%
+  filter(n() > 50) %>% #only keeping states having more than 50 transactions
   distinct(State) %>%
   pull(State)
 
@@ -36,7 +36,7 @@ df_income <- df_income %>%
 
 df_property <- df_property %>%
   group_by(State) %>%
-  filter(n() > 50)
+  filter(n() > 50) #only keeping states having more than 50 transactions
 
 # --------------------------
 # 2. Income Overview Plot
